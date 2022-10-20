@@ -26,7 +26,7 @@ nav li {
 .home{
   margin-top: 10%;
   text-decoration: none;
-    background-color: hsl(293, 74%, 65%);
+    background-color: hsl(220, 80%, 65%);
     color: rgb(221, 243, 116);
     padding: 7px;
     display: inline-block;
@@ -37,7 +37,7 @@ nav li {
 .home:after {
     content: '';
     position: absolute;
-    border-bottom: solid 5px rgb(80, 170, 234);
+    border-bottom: solid 5px rgb(167, 80, 234);
     bottom: 0;
     left: 0;
     right: 100%;
@@ -46,10 +46,58 @@ nav li {
 .home:hover:after {
     right: 0;
 }
-.conteudoPrincipal{
+.textoPrincipal{
+    font-size: 30px; text-align: justify; font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(88, 175, 241);
+    border: 7px #120355 solid;
     
 
 }
 .imagemPrincipal{
-    width: 100px;
+    width: 300px;
+    margin-left: 35%;
+}
+
+/* Professores*/
+.imagemordem{
+    display: inline-block;
+
+}
+.prof {
+width: 100px;
+height: 100px;
+margin-top: 10px;
+
+}
+.LogoGit {
+    display: inline;
+    width: 140px;
+
+}
+.nome{
+    display: inline-block;
+  
+}
+.conteiner{
+    display: flex;
+
+}
+
+.prof-texto-imagem{
+    display: flex;
+
+
+}
+
+.conteudo-prof{
+    text-align: center;
+}
+
+.todos-profs{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+.lista{
+    list-style: none;
 }
