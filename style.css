@@ -60,12 +60,12 @@ nav li {
 
 /* Professores*/
 .imagemordem{
-    display: inline-block;
+
 
 }
 .prof {
-width: 100px;
-height: 100px;
+width: 150px;
+height: 150px;
 margin-top: 10px;
 
 }
@@ -83,21 +83,6 @@ margin-top: 10px;
 
 }
 
-.prof-texto-imagem{
-    display: flex;
-
-
-}
-
-.conteudo-prof{
-    text-align: center;
-}
-
-.todos-profs{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-
-}
 .lista{
     list-style: none;
 }
