@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(120, 188, 237) ;
+}
+header {
+    background-color:#000000;
+}
+  
+.logo{
+        width: 150px;
+
+}
+ul{
+  color: white;
+}
+nav {
+    position: absolute;
+    top: -10px;
+    right:30;
+    margin-left: 50%;
+    font-size: 20px; font-family: monospace;
+
+}
+nav li {
+    display: inline;
+}
+.home{
+  margin-top: 10%;
+  text-decoration: none;
+    background-color: hsl(293, 74%, 65%);
+    color: rgb(221, 243, 116);
+    padding: 7px;
+    display: inline-block;
+    font-family: arial, sans-serif;
+    position: relative;
+  
+}
+.home:after {
+    content: '';
+    position: absolute;
+    border-bottom: solid 5px rgb(80, 170, 234);
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    transition: all 500ms;
+}
+.home:hover:after {
+    right: 0;
+}
+.conteudoPrincipal{
+    
+
+}
+.imagemPrincipal{
+    width: 100px;
+}
